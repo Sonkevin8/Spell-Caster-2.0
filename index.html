@@ -3,6 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <title>CodePen - Spell Caster</title>
+<title>Learning Zone</title>
+<link re=l= "stylesheet" href="style.css">
+
+<!--added below-->
+<style>
+  body {
+     font-family: Arial, sans-serif;
+   }
+   
+   button {
+     padding: 10px 20px;
+     margin: 10px;
+     font-size: 18px;
+   }
+   
+   #content {
+     margin-top: 20px;
+     border: 1px solid #ddd;
+     padding: 20px;
+   }
+   
+   #learning-zone {
+     margin-top: 20px;
+   }
+   
+ </style>
+   
+   <!--added above-->
+
+
   <script type="importmap">
   {
     "imports": {
@@ -198,6 +228,48 @@
           <div class="content">
             <h1 data-fade>Spell<br/>Caster</h1>
             <button data-send="next" data-fade>Start</button>
+
+
+
+
+ <!--new learning zone added below here-->
+
+ <html>
+  <head>
+    <title>Learning Zone</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="main-menu">
+        <button onclick="showLearningZone()">Learning Zone</button>
+    </div>
+    <div id="learning-zone" style="display: none;">
+        <button onclick="navigate('alphabet')">Magical Alphabet</button>
+        <button onclick="navigate('numbers')">Magical Numerals</button>
+        <button onclick="navigate('tracker')">Progress Tracker</button>
+        <button onclick="navigate('rewards')">Rewards</button>
+        <button onclick="navigate('controls')">Parental Controls</button>
+    </div>
+    <div id="content"></div>
+
+    <script src="script.js"></script>
+  </body>
+
+            
+            <!--new learning zone added above here-->
+
+
+
+
+
+
+
+
+
+
+
+
+
             <ul class="button-row">
               <li><button data-fade class="simple" data-send="skip">Skip instructions</button></li>
               <li><button data-fade class="simple" data-send="endless">Endless mode</button></li>
@@ -378,6 +450,49 @@
       
     </div>
 <!-- partial -->
+
+
+<script>
+
+  // Show the learning zone when a button is clicked
+  document.getElementById('learning-zone-button').addEventListener('click', showLearningZone);
+  
+  function showLearningZone() {
+      document.getElementById('learning-zone').style.display = 'block';
+  }
+  function navigate(section) {
+    const content = document.getElementById('content');
+    
+    switch (section) {
+        case 'alphabet':
+            content.textContent = 'Interactive alphabet learning...';
+            break;
+        case 'numbers':
+            content.textContent = 'Interactive number learning...';
+            break;
+        case 'tracker':
+            content.textContent = 'Progress Tracker goes here...';
+            break;
+        case 'rewards':
+            content.textContent = 'Rewards page goes here...';
+            break;
+        case 'controls':
+            content.textContent = 'Parental Control settings go here...';
+            break;
+    }
+  }
+  </script>
+  <!--j addded above-->
+
+
+
+
+
+
+
+
+
+
   <script type="module" src="./script.js"></script>
 
 </body>
