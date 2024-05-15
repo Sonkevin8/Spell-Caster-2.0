@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\willi\\source\\repos\\Spell-Caster-2.0\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\willi\\source\\repos\\Spell-Caster-2.0\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\willi\\source\\repos\\Spell-Caster-2.0\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\willi\\source\\repos\\Spell-Caster-2.0\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\willi\\source\\repos\\Spell-Caster-2.0\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -22,30 +22,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\willi\\source\\repos\\Spell-Caster-2.0\\index.html",
               "RelativeDocumentMoniker": "index.html",
               "ToolTip": "C:\\Users\\willi\\source\\repos\\Spell-Caster-2.0\\index.html",
               "RelativeToolTip": "index.html",
-              "ViewState": "AQIAAM8AAAAAAAAAAAAAAN0AAAAQAAAA",
+              "ViewState": "AQIAAKsAAAAAAAAAAAAAAN0AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-04-17T05:11:49.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "script.js",
               "DocumentMoniker": "C:\\Users\\willi\\source\\repos\\Spell-Caster-2.0\\script.js",
               "RelativeDocumentMoniker": "script.js",
               "ToolTip": "C:\\Users\\willi\\source\\repos\\Spell-Caster-2.0\\script.js",
               "RelativeToolTip": "script.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "ViewState": "AQIAAEEBAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-05-15T06:24:54.421Z",
               "EditorCaption": ""
@@ -58,9 +58,10 @@
               "RelativeDocumentMoniker": "style.css",
               "ToolTip": "C:\\Users\\willi\\source\\repos\\Spell-Caster-2.0\\style.css",
               "RelativeToolTip": "style.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMYAAAAWAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAHIAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-17T05:11:46.706Z"
+              "WhenOpened": "2024-04-17T05:11:46.706Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
