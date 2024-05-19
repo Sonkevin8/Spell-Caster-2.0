@@ -27,6 +27,20 @@
    #learning-zone {
      margin-top: 20px;
    }
+   #backToHomepage {
+    /* Example styling */
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#backToHomepage:hover {
+    background-color: #0056b3;
+}
    
  </style>
    
@@ -249,6 +263,8 @@
         <button onclick="navigate('tracker')">Progress Tracker</button>
         <button onclick="navigate('rewards')">Rewards</button>
         <button onclick="navigate('controls')">Parental Controls</button>
+        <button id="backToHomepage">Back to Homepage</button>
+        
     </div>
     <div id="content"></div>
 

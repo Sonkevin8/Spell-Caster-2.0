@@ -6781,6 +6781,11 @@ class App {
         DOM.controls.appendChild(button)
       })
 
+      document.getElementById('backToHomepage').addEventListener('click', () => {
+        // Assuming 'machine' is the state machine and 'send' is the method to transition states
+        this.machine.send('TITLE_SCREEN');
+      });
+
       switch (this.appState) {
         case "IDLE":
           this.machine.send("load")
