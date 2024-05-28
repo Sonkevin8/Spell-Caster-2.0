@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>CodePen - Spell Caster</title>
 <title>Learning Zone</title>
-<link re=l= "stylesheet" href="style.css">
+<link rel= "stylesheet" href="style.css">
 
 <!--added below-->
 <style>
@@ -263,7 +263,7 @@
         <button onclick="navigate('tracker')">Progress Tracker</button>
         <button onclick="navigate('rewards')">Rewards</button>
         <button onclick="navigate('controls')">Parental Controls</button>
-        <button id="backToHomepage">Back to Homepage</button>
+        <button id="backToHomepage" onClick="window.location.reload()" >Back to Homepage</button>
         
     </div>
     <div id="content"></div>
@@ -476,6 +476,8 @@
   function showLearningZone() {
       document.getElementById('learning-zone').style.display = 'block';
   }
+  
+  
   function navigate(section) {
     const content = document.getElementById('content');
     
